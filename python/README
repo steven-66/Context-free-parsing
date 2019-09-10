@@ -1,0 +1,14 @@
+Calling via command line:
+If ChartyPy3.py is made executable, one can call it:
+
+./ChartyPy3.py -g PSG1.txt -i "John loves Mary"
+
+or start Python with the script otherwise:
+
+python ChartyPy3.py -g PSG1.txt -i "John loves Mary"
+
+Start the script with as:
+
+python ChartyPy3.py -h
+
+for instructions about the parameters.

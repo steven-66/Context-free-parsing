@@ -1,0 +1,13 @@
+For part 3, I implement getParse(inputlength, chart, grammar), which is to find all parsed spanning edge, struct2Str(edge, chart, grammer), which basically does a depth-first-search, to backtrack all of the children
+of the current non-terminal to the end of a terminal.
+For part 4, I implement getProb(inputlength, chart, grammar),calculateProb(edge, chart, grammar), which is similiar to part 3 and do a DFS to calculate all the log-prob of every non-ternimal and end up with a terminal.
+
+Sample output:
+he gives watermelons to john
+['s[np[fpron[he]]vp[vbar[vbar[fv[gives]]np[nbar[fn[watermelons]]]]vbar-mods[pp[fp[to]np[fname[john]]]]]]',
+'s[np[fpron[he]]vp[vbar[vbar[fv[gives]]np[nbar[fn[watermelons]]]pp[fp[to]np[fname[john]]]]]]', 
+'s[np[fpron[he]]vp[vbar[vbar[fv[gives]]np[nbar[fn[watermelons]nbar-mods[pp[fp[to]np[fname[john
+]]]]]]]]]']
+[-22.42564174503978, -24.574076158206566, -20.59751463164085]
+ 
+as we can see, there 3 ways to parse the sentence, and the third one has the highest log-probablity, which is the most resonable.

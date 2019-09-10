@@ -1,0 +1,25 @@
+First, I add coordinate conjuctions as folowing:
+s	s cc s
+0  (They gamble, and they smoke), this can present two parallel sentence, to concatenate them.
+np	np cc np
+0 (john and Marry), this mainly stands for coordinate two subjects or objects
+vp	vp cc vp
+0 (sing and dance), this mainly stands for coordinate two verbs
+cc	and
+0	cc	but
+0	cc	or
+0	cc	so
+
+
+ ,these are coordinate conjuctions(and, but, or, so)
+
+Then I add imperative sentence:
+s	vp0  (Pour the trash.), this typically starts with a verb phrase.
+
+Other improvements like:
+s	np fis pp
+0	s	fis np pp
+0, this could parse some sentences like "he is in chicago", "is he in chicago?
+The most common invalid sentences that can be parsed would be:
+"i is in chicago", "you is on planet"
+

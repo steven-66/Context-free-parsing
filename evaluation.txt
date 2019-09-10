@@ -1,0 +1,20 @@
+What sorts of sentences can it parse?
+
+There are 3 main type of structure can be parsed. The first one is NP+VP, this mainly stands for sb/sth does sth.
+The second one is faux+np+vp, which mainly stands for question sentence, such as 'Does he live in Chicago'?  
+The third one is np+fis+np, which stands for predictive sentence, like he is allien.
+
+What types of sentences will it fail to parse?
+
+Firstly, this parser can only accpet the sentense consisting of the words in grammer corpus, that means a sentence including
+the novel words can not be parsed.
+Apparently, imperative snetence(starting with single verb) and all kinds of clauses(attributive clause) can not be parsed. 
+Compound sentense can not be parsed since there is no coordinated conjunctions.
+Perfect tense can not be parsed neither, since there is no have/had.
+
+What improvements to the grammar or parser are required to properly parse common failed sentences?
+
+we can expand the corpus and vocabulary, and add more grammar such as coordinated conjunctions and attributive clause.
+
+
+ 
